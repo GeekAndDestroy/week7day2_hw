@@ -114,10 +114,10 @@ let shopItems = [
 function displayItems(stuff){
     for (let item of stuff) {
         console.log('=======================================')
-        console.log('Name: ', item['name'])
-        console.log('Price: ', item['price'])
-        console.log('About: ', item['desc'])
-        console.log('Category: ', item['category'])
+        console.log('Name:      ', item['name'])
+        console.log('Price:     ', item['price'])
+        console.log('About:     ', item['desc'])
+        console.log('Category:  ', item['category'])
     }
 }
 
